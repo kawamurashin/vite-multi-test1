@@ -1,0 +1,12 @@
+{
+  "name": "express",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node dist/express/main.js",
+    "build": "tsc --project config/tsconfig.json"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.18.0"
+  }
+}
